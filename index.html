@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <LINK rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor de texto</title>
+</head>
+<body>
+<div class="editor">
+    <div class="btn-action">
+        <button id="bt1" onclick="mudarEstilo()">N</button>
+        <button id="bt2" onclick="mudarEstilo3()">I</button>
+        <button id="bt3" onclick="mudarEstilo2()">S</button>
+    </div>
+    <p></p>
+    <input type="text" placeholder="Título" id="titulo"></br>
+    <hr>
+    <TEXTAREA name="nicolas" cols="50" rows="20"></TEXTAREA>
+    <p></p>
+    <button><img src="imgs/icons8-baixar-24.png" class="down">  Download</button>
+    <script>
+        function mudarEstilo(){
+            var element = document.getElementById("titulo");
+            if (element.style.fontWeight == "bold"){
+                element.style.fontWeight = "normal";
+            }
+            else{
+                element.style.fontWeight = "bold";
+            }
+        }
+        function mudarEstilo2(){
+            var element = document.getElementById("titulo");
+            if (element.style.textDecoration == "underline"){
+                element.style.textDecoration = "none";
+            }
+            else{
+                element.style.textDecoration = "underline";
+            }
+        }
+
+        function mudarEstilo3(){
+            var element = document.getElementById("titulo");
+            if(element.style.fontStyle = "italic"){
+                element.style.fontStyle = "normal";
+            }
+            else{
+                element.style.fontStyle = "italic";
+            }
+        }
+    </script>
+</div>
+</body>
+</html>

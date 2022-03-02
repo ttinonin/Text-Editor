@@ -1,0 +1,59 @@
+*{
+    font-family: 'Times New Roman';
+    height: auto;
+}
+
+body{
+    margin-top:10px;
+    background-color: #FFFF33;
+    font-family: 'Times New Roman';
+}
+
+.editor{
+    background-color: #F0F0F0;
+    width: 500px;
+    height: 600px;
+    border-radius: 15px;
+    margin: auto;
+    padding: 10px;
+    padding-bottom: 0px;
+    box-shadow: 5px 10px 10px #181818;
+}
+
+#titulo{
+    width: 490px;
+    outline: 0px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+}
+
+#bt1{
+    font-family: 'Times New Roman';
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#bt2{
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+}
+
+#bt3{
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.down{
+    width: 18px;
+    height: 18px;
+}
