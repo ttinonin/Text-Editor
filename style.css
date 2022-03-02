@@ -37,6 +37,13 @@ body{
     font-size: 18px;
 }
 
+#box{
+    width: 490px;
+    outline: 0px;
+    height: 420px;
+    font-size: 20px;
+}
+
 #bt2{
     width: 25px;
     height: 25px;
